@@ -75,5 +75,6 @@ btn.addEventListener("click", () => {
     boxes.forEach(box => {
         box.innerText = "";
         box.style.color = ""; // Reset color as well
+        msg.innerText = "";
     });
 });
