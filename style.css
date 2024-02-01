@@ -84,3 +84,9 @@ button:hover{
     font-size: 50px;
     font-weight: 700;
 }
+
+@media (max-width: 800px) {
+    .result {
+        font-size: 35px;
+    }
+}
