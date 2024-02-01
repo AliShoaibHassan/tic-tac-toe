@@ -36,8 +36,8 @@ function handleBoxClick() {
             msg.innerText = `Player ${winner} wins!`;
             turn = 9;
             return;
-        } else {
-            console.log("No winner yet.");
+        } else if (turn === 8 && !winner) {
+            msg.innerText = `The game was a Draw!`;
         }
 
         turn++;
